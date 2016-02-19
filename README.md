@@ -13,7 +13,7 @@ The game restart after that.
 
 ### Videos
 
-
+[![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/Tapper%20Game.png)](https://www.youtube.com/watch?v=x7ycc1dHjZo)
 
 ### Targets
 * All Iphones size
