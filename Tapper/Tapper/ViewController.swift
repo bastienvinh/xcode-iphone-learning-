@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     
     // Messages
-    private let FORMAT_MESSAGE_TAPS : String = "%x Taps"
+    private let FORMAT_MESSAGE_TAPS : String = "%u Taps"
     
     
     
