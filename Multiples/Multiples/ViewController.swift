@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     
     // ***************** Utilities ******************************
     
-    func IsANumberEntered() -> Bool {
+    private func IsANumberEntered() -> Bool {
         
         // TODO : verify this can be convert into a number
         // TODO : verify a maximum to account UInt limit
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
     }
     
     
-    func ResetParty() {
+    private func ResetParty() {
         currentPartyInformation?.max = MAX_TO_PLAY
         currentPartyInformation?.cumul = 0
         

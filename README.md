@@ -46,5 +46,5 @@ This game take a number to add each time and give result everytime. look the vid
 * Only one way (can't change direction)
 
 
-## So why I am doing this ?
+# So why I am doing this ?
 No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge something a lot of time.
