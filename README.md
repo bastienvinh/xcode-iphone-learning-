@@ -57,5 +57,25 @@ This is project to understand more about stackview. Why stackview is very import
 This is another project to training with stackview.
 
 
+## Calculator
+
+### Description
+This is a simple calculator. This a project to learn to apply more stackview, constraint but only for Iphone this time. I play more with the component, add sound to my project, add fonts to my projects.
+
+
+(Author : this a project for every learning course ><, every detail is important)
+
+### How to use the calculator
+Just put your number and tap on operator button or equal button to see your result on screen.
+
+### Videos
+
+[![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/calculator-video.png)](https://www.youtube.com/watch?v=8dWwuywonE4)
+
+
+### Targets
+* Iphone device with horizontal position only.
+
+
 # So why I am doing this ?
-No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge something a lot of time.
+No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge a lot of things. Because no one will give your first experiences.
