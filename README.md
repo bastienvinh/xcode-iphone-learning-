@@ -1,4 +1,5 @@
-Some exercice to learn IOS. Nothing more, to be more familiar with xcode
+# Introduction
+Some exercice to learn IOS. Nothing more, to be more familiar with xcode. There are from a course.
 
 
 # Projects
@@ -44,6 +45,16 @@ This game take a number to add each time and give result everytime. look the vid
 * All Ipad size
 
 * Only one way (can't change direction)
+
+## StackView Exercice
+
+### Description
+This is project to understand more about stackview. Why stackview is very important to use it.
+
+## StacView Exercice 2
+
+### Description
+This is another project to training with stackview.
 
 
 # So why I am doing this ?
