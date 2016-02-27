@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  calculator
-//
-//  Created by Cloud Strife on 26/02/16.
-//  Copyright © 2016 Cloud Strife. All rights reserved.
-//
-
 import UIKit
 import AVFoundation // TO add sound functionnality
 
