@@ -55,9 +55,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="232" height="39.5"/>
                                                 <state key="normal" image="clear"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkj-Zx-VJf" userLabel="SIgne Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkj-Zx-VJf" userLabel="Add Button">
                                                 <rect key="frame" x="237" y="0.0" width="76" height="39.5"/>
-                                                <state key="normal" image="7"/>
+                                                <state key="normal" image="add"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -133,7 +133,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJu-WD-J7S">
                                                 <rect key="frame" x="82.5" y="0.0" width="230.5" height="39.5"/>
-                                                <state key="normal" image="clear"/>
+                                                <state key="normal" image="equal2"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -190,10 +190,12 @@
         <image name="8" width="111" height="114"/>
         <image name="9" width="111" height="114"/>
         <image name="Retro-Calc" width="755" height="111"/>
+        <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
         <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
+        <image name="equal2" width="333" height="114"/>
         <image name="launchbg" width="1433" height="957"/>
         <image name="launchground" width="999" height="225"/>
         <image name="multiply" width="111" height="114"/>
