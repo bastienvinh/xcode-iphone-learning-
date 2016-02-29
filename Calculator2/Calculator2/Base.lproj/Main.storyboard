@@ -28,13 +28,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pLm-xc-i47" userLabel="StackViewTitleAndRobot">
-                                <rect key="frame" x="120" y="20" width="360" height="189.5"/>
+                                <rect key="frame" x="120" y="20" width="360" height="190"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="NVl-Hn-JsT" userLabel="Title">
-                                        <rect key="frame" x="0.0" y="0.0" width="360" height="39.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="40"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="v9a-5A-3bB" userLabel="Robot">
-                                        <rect key="frame" x="0.0" y="59.5" width="360" height="130"/>
+                                        <rect key="frame" x="0.0" y="60" width="360" height="130"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="130" id="MxR-mZ-MAs"/>
                                         </constraints>
@@ -51,7 +51,7 @@
                                 <rect key="frame" x="136" y="203.5" width="328" height="29"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Xbw-zt-peI" userLabel="StackPad">
-                                <rect key="frame" x="144" y="242.5" width="313" height="219.5"/>
+                                <rect key="frame" x="144" y="243" width="313" height="218"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pdh-D5-43Q" userLabel="Stack Line 1">
                                         <rect key="frame" x="0.0" y="0.0" width="313" height="40"/>
@@ -59,93 +59,141 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWN-yB-HDN" userLabel="Clear Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="232" height="40"/>
                                                 <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="onClearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FH8-6m-W8E"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkj-Zx-VJf" userLabel="Add Button">
                                                 <rect key="frame" x="237" y="0.0" width="76" height="40"/>
                                                 <state key="normal" image="add"/>
+                                                <connections>
+                                                    <action selector="onAddButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsy-An-D3T"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bcW-hi-Enz" userLabel="Stack Line 2">
                                         <rect key="frame" x="0.0" y="45" width="313" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVq-T9-D1I" userLabel="Seven Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVq-T9-D1I" userLabel="Seven Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="7"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIj-ld-ZLo"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQk-El-Ts6" userLabel="Eight Button">
-                                                <rect key="frame" x="79.5" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQk-El-Ts6" userLabel="Eight Button">
+                                                <rect key="frame" x="80" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="8"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nzh-ej-eCg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgS-Hj-nqg" userLabel="Nine Button">
-                                                <rect key="frame" x="159" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgS-Hj-nqg" userLabel="Nine Button">
+                                                <rect key="frame" x="159" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="9"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iwb-gc-S9j"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9V-vJ-11n" userLabel="Divide Button">
-                                                <rect key="frame" x="238.5" y="0.0" width="74.5" height="40"/>
+                                                <rect key="frame" x="239" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="divide"/>
+                                                <connections>
+                                                    <action selector="onDivideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AVe-lK-VXB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="HZs-3q-yE2" userLabel="Stack Line 3">
-                                        <rect key="frame" x="0.0" y="90" width="313" height="39.5"/>
+                                        <rect key="frame" x="0.0" y="89" width="313" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xg-9Q-uTo" userLabel="Four Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.5" height="39.5"/>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xg-9Q-uTo" userLabel="Four Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="4"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UxL-oN-0dt"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFS-8B-ldw" userLabel="Five Button">
-                                                <rect key="frame" x="79.5" y="0.0" width="74.5" height="39.5"/>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFS-8B-ldw" userLabel="Five Button">
+                                                <rect key="frame" x="80" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="5"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0QK-Ik-Yw0"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zm-R9-TMr" userLabel="Six Button">
-                                                <rect key="frame" x="159" y="0.0" width="74.5" height="39.5"/>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zm-R9-TMr" userLabel="Six Button">
+                                                <rect key="frame" x="159" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="6"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMd-wc-QLe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDO-Rx-6NA" userLabel="Multiply Button">
-                                                <rect key="frame" x="238.5" y="0.0" width="74.5" height="39.5"/>
+                                                <rect key="frame" x="239" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="multiply"/>
+                                                <connections>
+                                                    <action selector="onMultiplyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hUH-0U-G2K"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EYl-T9-bGC" userLabel="Stack Line 4">
-                                        <rect key="frame" x="0.0" y="134.5" width="313" height="40"/>
+                                        <rect key="frame" x="0.0" y="134" width="313" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOG-Xg-vpT" userLabel="One Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOG-Xg-vpT" userLabel="One Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="1"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YwQ-cb-lPf"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xp5-ER-EHQ" userLabel="Two Button">
-                                                <rect key="frame" x="79.5" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xp5-ER-EHQ" userLabel="Two Button">
+                                                <rect key="frame" x="80" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="2"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FwN-KP-2hw"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai0-vb-gvl" userLabel="Three Button">
-                                                <rect key="frame" x="159" y="0.0" width="74.5" height="40"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai0-vb-gvl" userLabel="Three Button">
+                                                <rect key="frame" x="159" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="3"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mdy-RZ-4cu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opZ-t2-diM" userLabel="Subtract Button">
-                                                <rect key="frame" x="238.5" y="0.0" width="74.5" height="40"/>
+                                                <rect key="frame" x="239" y="0.0" width="75" height="40"/>
                                                 <state key="normal" image="subtract"/>
+                                                <connections>
+                                                    <action selector="onSubtractButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wja-P5-GLk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2wl-Zj-pSQ">
-                                        <rect key="frame" x="0.0" y="179.5" width="313" height="40"/>
+                                        <rect key="frame" x="0.0" y="178" width="313" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vez-WC-8Dd">
-                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="40"/>
-                                                <state key="normal" image="7"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vez-WC-8Dd" userLabel="Zero Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="40"/>
+                                                <state key="normal" image="0"/>
+                                                <connections>
+                                                    <action selector="onNumberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zin-C7-Hpr"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJu-WD-J7S">
-                                                <rect key="frame" x="82.5" y="0.0" width="230.5" height="40"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJu-WD-J7S" userLabel="Equal Button">
+                                                <rect key="frame" x="83" y="0.0" width="231" height="40"/>
                                                 <state key="normal" image="equal2"/>
+                                                <connections>
+                                                    <action selector="onEqualButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4BC-eD-OIR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23244" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXY-vb-c2B" userLabel="Result">
-                                <rect key="frame" x="156" y="208.5" width="288" height="19"/>
+                                <rect key="frame" x="156" y="209.5" width="288" height="19"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -187,6 +235,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="_resultLabel" destination="KXY-vb-c2B" id="pI2-lB-nmH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -194,6 +245,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="0" width="111" height="114"/>
         <image name="1" width="111" height="114"/>
         <image name="2" width="111" height="114"/>
         <image name="3" width="111" height="114"/>
