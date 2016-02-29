@@ -12,6 +12,8 @@
 		8F72D3BB1C81F258004D2E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D3B91C81F258004D2E7D /* Main.storyboard */; };
 		8F72D3BD1C81F258004D2E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D3BC1C81F258004D2E7D /* Assets.xcassets */; };
 		8F72D3C01C81F258004D2E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D3BE1C81F258004D2E7D /* LaunchScreen.storyboard */; };
+		8F72D3E81C835AB3004D2E7D /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D3E71C835AB3004D2E7D /* Minecraft.ttf */; };
+		8F72D3EA1C835AC2004D2E7D /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D3E91C835AC2004D2E7D /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8F72D3BC1C81F258004D2E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F72D3BF1C81F258004D2E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F72D3C11C81F258004D2E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F72D3E71C835AB3004D2E7D /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = Calculator2/Fonts/Minecraft.ttf; sourceTree = "<group>"; };
+		8F72D3E91C835AC2004D2E7D /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = btn.wav; path = Calculator2/Sounds/btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		8F72D3A91C81F258004D2E7D = {
 			isa = PBXGroup;
 			children = (
+				8F72D3E61C835A69004D2E7D /* Sounds */,
+				8F72D3E51C83596F004D2E7D /* Fonts */,
 				8F72D3B41C81F258004D2E7D /* Calculator2 */,
 				8F72D3B31C81F258004D2E7D /* Products */,
 			);
@@ -62,6 +68,22 @@
 				8F72D3C11C81F258004D2E7D /* Info.plist */,
 			);
 			path = Calculator2;
+			sourceTree = "<group>";
+		};
+		8F72D3E51C83596F004D2E7D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8F72D3E71C835AB3004D2E7D /* Minecraft.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		8F72D3E61C835A69004D2E7D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8F72D3E91C835AC2004D2E7D /* btn.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F72D3EA1C835AC2004D2E7D /* btn.wav in Resources */,
 				8F72D3C01C81F258004D2E7D /* LaunchScreen.storyboard in Resources */,
 				8F72D3BD1C81F258004D2E7D /* Assets.xcassets in Resources */,
+				8F72D3E81C835AB3004D2E7D /* Minecraft.ttf in Resources */,
 				8F72D3BB1C81F258004D2E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
