@@ -76,6 +76,23 @@ Just put your number and tap on operator button or equal button to see your resu
 ### Targets
 * Iphone device with horizontal position only.
 
+## OOP Course : Dungeon Battle
+
+### Description
+This a game where you have to defeat monster. You have to click to atttack button to give damage to your enemy. 
+
+This project don't need to be extravagent. What I learn here is only to introduce OOP on my course in swift. So doing with videgames is easier.
+
+### How to play
+* Just tap Attack Button
+* After that a chest will show itself, click on the chest
+* Wait the new monster appear
+* And rebelott, click on Attack button again
+
+### Videos
+
+[![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/Monster%20Games%20OOP%20Introduction.png)](https://www.youtube.com/watch?v=42Jahgvh9VA)
+
 
 # So why I am doing this ?
 No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge a lot of things. Because no one will give your first experiences.
