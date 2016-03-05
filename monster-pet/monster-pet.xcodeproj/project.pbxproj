@@ -14,6 +14,11 @@
 		8F72D4301C87DBA7004D2E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D42E1C87DBA7004D2E7D /* LaunchScreen.storyboard */; };
 		8F72D4391C8804E1004D2E7D /* DragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D4381C8804E1004D2E7D /* DragAndDrop.swift */; };
 		8F72D43B1C8A4353004D2E7D /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */; };
+		8F72D44C1C8A8E6E004D2E7D /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D4471C8A8E6E004D2E7D /* bite.wav */; };
+		8F72D44D1C8A8E6E004D2E7D /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D4481C8A8E6E004D2E7D /* cave-music.mp3 */; };
+		8F72D44E1C8A8E6E004D2E7D /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D4491C8A8E6E004D2E7D /* death.wav */; };
+		8F72D44F1C8A8E6E004D2E7D /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D44A1C8A8E6E004D2E7D /* heart.wav */; };
+		8F72D4501C8A8E6E004D2E7D /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D44B1C8A8E6E004D2E7D /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		8F72D4311C87DBA7004D2E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F72D4381C8804E1004D2E7D /* DragAndDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragAndDrop.swift; sourceTree = "<group>"; };
 		8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		8F72D4471C8A8E6E004D2E7D /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bite.wav; path = "monster-pet/Sounds/bite.wav"; sourceTree = "<group>"; };
+		8F72D4481C8A8E6E004D2E7D /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "cave-music.mp3"; path = "monster-pet/Sounds/cave-music.mp3"; sourceTree = "<group>"; };
+		8F72D4491C8A8E6E004D2E7D /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = death.wav; path = "monster-pet/Sounds/death.wav"; sourceTree = "<group>"; };
+		8F72D44A1C8A8E6E004D2E7D /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = heart.wav; path = "monster-pet/Sounds/heart.wav"; sourceTree = "<group>"; };
+		8F72D44B1C8A8E6E004D2E7D /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = skull.wav; path = "monster-pet/Sounds/skull.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 		8F72D4191C87DBA7004D2E7D = {
 			isa = PBXGroup;
 			children = (
+				8F72D43C1C8A8DFD004D2E7D /* Sounds */,
 				8F72D4241C87DBA7004D2E7D /* monster-pet */,
 				8F72D4231C87DBA7004D2E7D /* Products */,
 			);
@@ -76,6 +87,18 @@
 				8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */,
 			);
 			name = "Events Code";
+			sourceTree = "<group>";
+		};
+		8F72D43C1C8A8DFD004D2E7D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8F72D4471C8A8E6E004D2E7D /* bite.wav */,
+				8F72D4481C8A8E6E004D2E7D /* cave-music.mp3 */,
+				8F72D4491C8A8E6E004D2E7D /* death.wav */,
+				8F72D44A1C8A8E6E004D2E7D /* heart.wav */,
+				8F72D44B1C8A8E6E004D2E7D /* skull.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F72D4501C8A8E6E004D2E7D /* skull.wav in Resources */,
+				8F72D44C1C8A8E6E004D2E7D /* bite.wav in Resources */,
+				8F72D44E1C8A8E6E004D2E7D /* death.wav in Resources */,
+				8F72D44F1C8A8E6E004D2E7D /* heart.wav in Resources */,
+				8F72D44D1C8A8E6E004D2E7D /* cave-music.mp3 in Resources */,
 				8F72D4301C87DBA7004D2E7D /* LaunchScreen.storyboard in Resources */,
 				8F72D42D1C87DBA7004D2E7D /* Assets.xcassets in Resources */,
 				8F72D42B1C87DBA7004D2E7D /* Main.storyboard in Resources */,

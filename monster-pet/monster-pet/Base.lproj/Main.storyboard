@@ -51,7 +51,7 @@
                                             <constraint firstAttribute="width" constant="47" id="gt3-Wz-TPw"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="7Vn-oq-GR9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="7Vn-oq-GR9" userLabel="Skull3 Img View">
                                         <rect key="frame" x="124" y="0.0" width="47" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="1CN-na-HgT"/>
@@ -135,7 +135,7 @@
                         <outlet property="monsterImgView" destination="qV8-qM-i4f" id="bf2-0v-zg9"/>
                         <outlet property="skull1ImgView" destination="s8m-3N-kRs" id="QbI-LE-9rq"/>
                         <outlet property="skull2ImgView" destination="2rl-lg-10g" id="9q8-BM-Wap"/>
-                        <outlet property="skull3ImgView" destination="7Vn-oq-GR9" id="gLz-0v-Hgf"/>
+                        <outlet property="skull3ImgView" destination="7Vn-oq-GR9" id="RMk-Jf-i99"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
