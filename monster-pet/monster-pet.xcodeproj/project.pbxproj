@@ -12,6 +12,8 @@
 		8F72D42B1C87DBA7004D2E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D4291C87DBA7004D2E7D /* Main.storyboard */; };
 		8F72D42D1C87DBA7004D2E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D42C1C87DBA7004D2E7D /* Assets.xcassets */; };
 		8F72D4301C87DBA7004D2E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72D42E1C87DBA7004D2E7D /* LaunchScreen.storyboard */; };
+		8F72D4391C8804E1004D2E7D /* DragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D4381C8804E1004D2E7D /* DragAndDrop.swift */; };
+		8F72D43B1C8A4353004D2E7D /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8F72D42C1C87DBA7004D2E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F72D42F1C87DBA7004D2E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F72D4311C87DBA7004D2E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F72D4381C8804E1004D2E7D /* DragAndDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragAndDrop.swift; sourceTree = "<group>"; };
+		8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		8F72D4241C87DBA7004D2E7D /* monster-pet */ = {
 			isa = PBXGroup;
 			children = (
+				8F72D4371C8804B0004D2E7D /* Events Code */,
 				8F72D4251C87DBA7004D2E7D /* AppDelegate.swift */,
 				8F72D4271C87DBA7004D2E7D /* ViewController.swift */,
 				8F72D4291C87DBA7004D2E7D /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				8F72D4311C87DBA7004D2E7D /* Info.plist */,
 			);
 			path = "monster-pet";
+			sourceTree = "<group>";
+		};
+		8F72D4371C8804B0004D2E7D /* Events Code */ = {
+			isa = PBXGroup;
+			children = (
+				8F72D4381C8804E1004D2E7D /* DragAndDrop.swift */,
+				8F72D43A1C8A4353004D2E7D /* MonsterImg.swift */,
+			);
+			name = "Events Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F72D43B1C8A4353004D2E7D /* MonsterImg.swift in Sources */,
 				8F72D4281C87DBA7004D2E7D /* ViewController.swift in Sources */,
 				8F72D4261C87DBA7004D2E7D /* AppDelegate.swift in Sources */,
+				8F72D4391C8804E1004D2E7D /* DragAndDrop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
