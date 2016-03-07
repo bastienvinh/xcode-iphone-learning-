@@ -93,11 +93,13 @@ class ViewController: UIViewController {
     }
     
     func changeGameStates() {
-        _penalties += 1
+        
         
         if !monsterHappy {
             
             sfxSkull.play()
+            
+            _penalties += 1
             
             if _penalties == 1 {
                 skull1ImgView.alpha = OPAQUE
