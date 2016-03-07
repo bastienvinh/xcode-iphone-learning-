@@ -94,5 +94,23 @@ This project don't need to be extravagent. What I learn here is only to introduc
 [![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/Monster%20Games%20OOP%20Introduction.png)](https://www.youtube.com/watch?v=42Jahgvh9VA)
 
 
+## Monster Pet
+
+### Description
+This a game about feeding a monster. If the you feed badly your monster, he will die.
+The point of this game is about :
+
+* Sound (bakcgound sound, action sound, dead sound, ...)
+* Drag and drop action on phone
+* Animations
+* Nsnotification
+* Timer
+
+This game will be a little simple, but we learn more concept of IOS Development.
+
+### Videos
+[![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/Monster%20Pet.png)](https://youtu.be/Vwwo3pr-OHk)
+
+
 # So why I am doing this ?
 No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge a lot of things. Because no one will give your first experiences.
