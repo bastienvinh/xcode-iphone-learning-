@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Main View Controller" id="BYZ-38-t0r" customClass="FirstPageViewController" customModule="segway_example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZN-ot-XDo" userLabel="Enter Yellow Page Button">
+                                <rect key="frame" x="257.5" y="285" width="85" height="30"/>
+                                <state key="normal" title="Go to Yellow">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadblue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ko-Mp-TyH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gp-bA-P5L">
+                                <rect key="frame" x="264.5" y="320" width="71" height="30"/>
+                                <state key="normal" title="Go To Red">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yPm-uS-mqr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6gp-bA-P5L" firstAttribute="top" secondItem="LZN-ot-XDo" secondAttribute="bottom" constant="5" id="1uZ-dr-uRQ"/>
+                            <constraint firstItem="LZN-ot-XDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VEu-P6-gE6"/>
+                            <constraint firstItem="LZN-ot-XDo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gjx-Ef-lDx"/>
+                            <constraint firstItem="6gp-bA-P5L" firstAttribute="centerX" secondItem="LZN-ot-XDo" secondAttribute="centerX" id="nMX-4L-KiU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="XJi-2Q-oka" kind="show" identifier="goToYellow" id="0O2-mf-crl"/>
+                        <segue destination="tsC-fZ-Dsd" kind="show" identifier="goToRed" id="vVZ-p2-gk0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="549"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="LPB-xC-8PG">
+            <objects>
+                <viewController title="Second View Controller" id="XJi-2Q-oka" customClass="YellowViewController" customModule="segway_example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nJN-cq-5r9"/>
+                        <viewControllerLayoutGuide type="bottom" id="I3K-OW-ZbB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="71j-Kq-gCg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iW-c7-ilr">
+                                <rect key="frame" x="229.5" y="285" width="141" height="30"/>
+                                <state key="normal" title="Click On This Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8y-kS-SIT">
+                                <rect key="frame" x="279" y="259" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.90340675879999999" blue="0.45976366330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2iW-c7-ilr" firstAttribute="centerX" secondItem="71j-Kq-gCg" secondAttribute="centerX" id="YxH-k7-tBM"/>
+                            <constraint firstItem="2iW-c7-ilr" firstAttribute="centerY" secondItem="71j-Kq-gCg" secondAttribute="centerY" id="hrZ-VA-eEk"/>
+                            <constraint firstItem="2iW-c7-ilr" firstAttribute="top" secondItem="C8y-kS-SIT" secondAttribute="bottom" constant="5" id="tTm-lk-Bk4"/>
+                            <constraint firstItem="C8y-kS-SIT" firstAttribute="centerX" secondItem="2iW-c7-ilr" secondAttribute="centerX" id="y54-SW-RPu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TestLabel" destination="C8y-kS-SIT" id="om3-Bb-1RB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XK0-hi-bMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1330" y="549"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="uLy-NZ-4Zu">
+            <objects>
+                <viewController title="Third View Controller" id="tsC-fZ-Dsd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ug3-Kx-OLn"/>
+                        <viewControllerLayoutGuide type="bottom" id="i3w-Mg-hPq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pzh-kO-FBg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.33453695319999999" blue="0.38955583430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TGa-oP-wVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1331" y="1384"/>
+        </scene>
+    </scenes>
+</document>
