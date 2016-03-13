@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,229 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troyes3" translatesAutoresizingMaskIntoConstraints="NO" id="481-OP-ntj" userLabel="Background Image">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2Qp-Y0-gKo" userLabel="Stack Text">
+                                <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rd4-aF-OEV" userLabel="Stack Show Text">
+                                        <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OUTDOOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIc-PM-OQA">
+                                                <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ADVENTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0C-Zb-ChR">
+                                                <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1c6-ZU-H5k">
+                                                <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NJx-0e-kFI" userLabel="Stack City">
+                                        <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TROYES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xS-16-bVP">
+                                                <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdK-B9-d1i">
+                                                <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="80"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qWp-5P-b6O" userLabel="Stack Region">
+                                        <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="ktQ-Nt-WwF">
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHAMPAGNE ARDENNE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiE-Do-5mH">
+                                                <rect key="frame" x="55" y="0.0" width="199" height="35"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hiy-gz-I9E">
+                                <rect key="frame" x="208.5" y="517" width="183" height="43"/>
+                                <color key="backgroundColor" red="1" green="0.6753969682272597" blue="0.40812302921155108" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="1D3-ij-XuJ"/>
+                                    <constraint firstAttribute="height" constant="43" id="Tg5-pu-c7M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Find Out More">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wgL-Gu-z6B" kind="show" id="ol5-Nf-2so"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="481-OP-ntj" secondAttribute="trailing" id="13i-dU-3RL"/>
+                            <constraint firstItem="2Qp-Y0-gKo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="5Gc-Y8-XCf"/>
+                            <constraint firstItem="Hiy-gz-I9E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TGP-Gn-FoD"/>
+                            <constraint firstItem="2Qp-Y0-gKo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="acl-zu-aec"/>
+                            <constraint firstAttribute="bottom" secondItem="Hiy-gz-I9E" secondAttribute="bottom" constant="40" id="gl5-Th-Boc"/>
+                            <constraint firstItem="481-OP-ntj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hmD-sw-CU9"/>
+                            <constraint firstAttribute="bottom" secondItem="481-OP-ntj" secondAttribute="bottom" id="onf-7a-mVs"/>
+                            <constraint firstItem="481-OP-ntj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="v7S-0W-TTw"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="findOutMoreButton" destination="Hiy-gz-I9E" id="iux-Vl-mQo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-747" y="1241"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="J5u-ui-bgu">
+            <objects>
+                <viewController id="wgL-Gu-z6B" customClass="SecondVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dty-RJ-NEd"/>
+                        <viewControllerLayoutGuide type="bottom" id="nqn-ih-CJu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p8e-et-0kb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troyes4" translatesAutoresizingMaskIntoConstraints="NO" id="noX-NO-NaS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="8Y4-7R-7wN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TROYES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-dJ-Bpv">
+                                <rect key="frame" x="233" y="64" width="134" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Dp-Mr-mJK" userLabel="Stack Information">
+                                <rect key="frame" x="20" y="170" width="560" height="390"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="54k-Aw-0ud" userLabel="Stack POPULATION">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="45"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uC-Du-vVf">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Cxc-dd-Bke"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20,700" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ2-RG-zlI">
+                                                <rect key="frame" x="0.0" y="25" width="52" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ACd-kr-7vD" userLabel="Stack HISTORY">
+                                        <rect key="frame" x="0.0" y="55" width="560" height="335"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-bB-3lQ" userLabel="History Labels">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="ef6-es-Gux"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kII-s5-XRz" userLabel="History Contents">
+                                                <rect key="frame" x="0.0" y="25" width="560" height="310"/>
+                                                <mutableString key="text">Troyes has been in existence since the Roman era, as Augustobona Tricassium, which stood at the hub of numerous highways, primarily the Via Agrippa which led north to Reims and south to Langres and eventually to Milan;[1] other Roman routes from Troyes led to Poitiers, Autun and Orléans.[2] It was the civitas of the Tricasses,[3] who had been separated by Augustus from the Senones. Of the Gallo-Roman city of the early Empire, some scattered remains have been found, but no public monuments, other than traces of an aqueduct. By the Late Empire the settlement was reduced in extent, and referred to as Tricassium or Tricassae, the origin of French Troyes.
+
+The city was the seat of a bishop from the fourth century – the legend of its bishop Lupus (Loup), who saved the city from Attila by offering himself as hostage is hagiographic rather than historical[4] – though it was several centuries before it gained importance as a medieval centre of commerce.
+
+In the early cathedral on the present site, Louis the Stammerer in 878 received at Troyes the imperial crown from the hands of Pope John VIII. At the end of the ninth century, following depredations to the city by Normans, the counts of Champagne chose Troyes as their capital; it remained the capital of the Province of Champagne until the Revolution. The Abbey of Saint-Loup developed a renowned library and scriptorium. During the Middle Ages, it was an important trading town, and gave its name to troy weight. The Champagne cloth fairs and the revival of long-distance trade and new extension of coinage and credit were the real engines that drove the medieval economy of Troyes.
+
+In 1285, when Philip the Fair united Champagne to the royal domain, the town kept a number of its traditional privileges. John the Fearless, Duke of Burgundy and ally of the English, aimed in 1417 at making Troyes the capital of France, and he came to an understanding with Isabeau of Bavaria, wife of Charles VI of France, that a court, council, and parlement with comptroller's offices should be established at Troyes. It was at Troyes, then in the hands of the Burgundians, that on 21 May 1420, the Treaty of Troyes was signed by which Henry V of England was betrothed to Catherine, daughter of Charles VI, and by terms of which he was to succeed Charles, to the detriment of the Dauphin. The high-water mark of Plantagenet hegemony in France was reversed when the Dauphin, afterwards Charles VII, and Joan of Arc recovered the town of Troyes in 1429.
+
+In medieval times Troyes was an important international trade centre, centring on the Troyes Fair. The name troy weight for gold derives from the standard of measurement evolving here.[5]
+
+
+Cathédrale Saint-Pierre-et-Saint-Paul de Troyes (1549).
+
+Town Hall of Troyes.
+The great fire of 1524 destroyed much of the medieval city, in spite of the city's numerous canals.</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3y-tx-4uS">
+                                <rect key="frame" x="25" y="5" width="34" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="FfP-7T-FO1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leading" constant="20" id="1j1-J8-zMo"/>
+                            <constraint firstAttribute="trailing" secondItem="noX-NO-NaS" secondAttribute="trailing" id="4Xj-2g-4cM"/>
+                            <constraint firstItem="r3y-tx-4uS" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leadingMargin" constant="5" id="6qd-hk-LNU"/>
+                            <constraint firstItem="Mu6-dJ-Bpv" firstAttribute="centerX" secondItem="noX-NO-NaS" secondAttribute="centerX" id="Cc9-5W-OEL"/>
+                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="top" secondItem="noX-NO-NaS" secondAttribute="bottom" constant="20" id="DzJ-e0-nuh"/>
+                            <constraint firstItem="nqn-ih-CJu" firstAttribute="top" secondItem="5Dp-Mr-mJK" secondAttribute="bottom" constant="40" id="GoS-su-UtW"/>
+                            <constraint firstAttribute="trailing" secondItem="5Dp-Mr-mJK" secondAttribute="trailing" constant="20" id="MCz-XS-bhi"/>
+                            <constraint firstItem="r3y-tx-4uS" firstAttribute="top" secondItem="p8e-et-0kb" secondAttribute="topMargin" constant="5" id="XIB-mg-pvf"/>
+                            <constraint firstItem="noX-NO-NaS" firstAttribute="top" secondItem="p8e-et-0kb" secondAttribute="top" id="bDy-Mb-oIC"/>
+                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="top" secondItem="noX-NO-NaS" secondAttribute="bottom" constant="40" id="t6E-gg-DAR"/>
+                            <constraint firstItem="Mu6-dJ-Bpv" firstAttribute="centerY" secondItem="noX-NO-NaS" secondAttribute="centerY" id="zMy-wd-bS9"/>
+                            <constraint firstItem="noX-NO-NaS" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leading" id="znl-YE-j23"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="t6E-gg-DAR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YcW-ez-dHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="1241"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="compass" width="35" height="35"/>
+        <image name="troyes3" width="2672" height="4009"/>
+        <image name="troyes4" width="4460" height="2973"/>
+    </resources>
 </document>
