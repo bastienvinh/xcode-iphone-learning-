@@ -1,14 +1,14 @@
 //
-//  SecondVC.swift
+//  DescriptionItemVC.swift
 //  favorite-place
 //
-//  Created by Cloud Strife on 12/03/16.
+//  Created by Cloud Strife on 13/03/16.
 //  Copyright © 2016 Cloud Strife. All rights reserved.
 //
 
 import UIKit
 
-class SecondVC: UIViewController {
+class DescriptionItemVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +20,7 @@ class SecondVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // TODO : change text for each device
+    
 }

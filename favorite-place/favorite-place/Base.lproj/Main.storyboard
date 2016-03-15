@@ -32,20 +32,80 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="21"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ADVENTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0C-Zb-ChR">
                                                 <rect key="frame" x="0.0" y="21" width="116" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1c6-ZU-H5k">
                                                 <rect key="frame" x="0.0" y="41" width="116" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="116" height="21"/>
+                                                </variation>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        </variation>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        </variation>
+                                        <variation key="widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="116" height="62"/>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NJx-0e-kFI" userLabel="Stack City">
                                         <rect key="frame" x="0.0" y="92" width="245" height="168"/>
@@ -55,14 +115,59 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                </variation>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="245" height="72"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdK-B9-d1i">
                                                 <rect key="frame" x="0.0" y="72" width="245" height="96"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="80"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                </variation>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="72" width="245" height="96"/>
+                                                </variation>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        </variation>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        </variation>
+                                        <variation key="widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="245" height="168"/>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qWp-5P-b6O" userLabel="Stack Region">
                                         <rect key="frame" x="0.0" y="289" width="254" height="35"/>
@@ -77,8 +182,38 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        </variation>
+                                        <variation key="heightClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        </variation>
+                                        <variation key="widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="289" width="254" height="35"/>
+                                        </variation>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="10" y="40" width="254" height="324"/>
+                                </variation>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hiy-gz-I9E">
                                 <rect key="frame" x="208.5" y="517" width="183" height="43"/>
@@ -92,7 +227,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wgL-Gu-z6B" kind="show" id="ol5-Nf-2so"/>
+                                    <segue destination="KtT-rH-T06" kind="show" id="4k7-H7-Xz1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -116,68 +251,269 @@
             </objects>
             <point key="canvasLocation" x="-747" y="1241"/>
         </scene>
-        <!--SecondVC-->
-        <scene sceneID="J5u-ui-bgu">
+        <!--Details City Item-->
+        <scene sceneID="CsS-4t-4xy">
             <objects>
-                <viewController id="wgL-Gu-z6B" customClass="SecondVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LVN-Ih-Hff" userLabel="Details City Item" customClass="DetailsCityItemVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dty-RJ-NEd"/>
-                        <viewControllerLayoutGuide type="bottom" id="nqn-ih-CJu"/>
+                        <viewControllerLayoutGuide type="top" id="A7o-5a-YjN"/>
+                        <viewControllerLayoutGuide type="bottom" id="F4j-mK-5HS"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="p8e-et-0kb">
+                    <view key="view" contentMode="scaleToFill" id="XZU-G3-qlV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troyes4" translatesAutoresizingMaskIntoConstraints="NO" id="noX-NO-NaS">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troyes4" translatesAutoresizingMaskIntoConstraints="NO" id="PGU-Ai-9oA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="391"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="8Y4-7R-7wN"/>
+                                    <constraint firstAttribute="height" constant="150" id="BMM-c9-5JE"/>
+                                    <constraint firstAttribute="height" constant="135" id="V6J-Xr-nhY"/>
+                                    <constraint firstAttribute="height" constant="324" id="aBg-uN-NTP"/>
+                                    <constraint firstAttribute="height" constant="150" placeholder="YES" id="orH-iQ-YSl"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BMM-c9-5JE"/>
+                                        <exclude reference="V6J-Xr-nhY"/>
+                                        <exclude reference="aBg-uN-NTP"/>
+                                        <exclude reference="orH-iQ-YSl"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="V6J-Xr-nhY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="BMM-c9-5JE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="aBg-uN-NTP"/>
+                                    </mask>
+                                </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TROYES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-dJ-Bpv">
-                                <rect key="frame" x="233" y="64" width="134" height="21"/>
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B06-K3-7e3" userLabel="Back">
+                                <rect key="frame" x="15" y="15" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="75k-lW-sVs">
+                                        <variation key="heightClass=regular" constant="64"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="32" id="Z3B-vl-Jra">
+                                        <variation key="heightClass=regular" constant="64"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" image="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="6zS-DU-IQT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TROYES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o15-iC-CTW">
+                                <rect key="frame" x="233" y="184.5" width="134" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Dp-Mr-mJK" userLabel="Stack Information">
-                                <rect key="frame" x="20" y="170" width="560" height="390"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0Qp-51-Q2b" userLabel="Stack Details">
+                                <rect key="frame" x="15" y="401" width="570" height="140"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="54k-Aw-0ud" userLabel="Stack POPULATION">
-                                        <rect key="frame" x="0.0" y="0.0" width="110" height="45"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="kpN-dw-MAG" userLabel="Stack Population">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="40"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uC-Du-vVf">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eB-FR-43N">
+                                                <rect key="frame" x="0.0" y="0.0" width="88" height="20"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="Cxc-dd-Bke"/>
+                                                    <constraint firstAttribute="height" constant="20" id="0c6-aF-pce"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="88" height="20"/>
+                                                </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20,700" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ2-RG-zlI">
-                                                <rect key="frame" x="0.0" y="25" width="52" height="20"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="60,009" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfx-ia-vdf">
+                                                <rect key="frame" x="0.0" y="20" width="56" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="20" width="56" height="20"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="88" height="40"/>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="i3K-gS-dc6" userLabel="Stack Description">
+                                        <rect key="frame" x="0.0" y="60" width="570" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU3-gD-Jcp">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="u7J-hI-ze5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="94" height="20"/>
+                                                </variation>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf4-3X-FHJ" userLabel="Description TextView">
+                                                <rect key="frame" x="0.0" y="20" width="570" height="0.0"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Troyes is a little city in Aube. He is well know for his Champagne, Boudin, Store, ... Troyes has an original building deisgn in center. He has many university and lot of park sourrindin the city and the agglomeration.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="20" width="570" height="56"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="60" width="570" height="76"/>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-mx-yHt" userLabel="Stack Population">
+                                        <rect key="frame" x="0.0" y="100" width="246" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Things to do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYi-Ow-mPC">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="88P-nP-RUj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="102" height="20"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joggings, Restaurants, Study, ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFu-Cb-6kR">
+                                                <rect key="frame" x="0.0" y="20" width="246" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="156" width="246" height="40"/>
+                                        </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ACd-kr-7vD" userLabel="Stack HISTORY">
-                                        <rect key="frame" x="0.0" y="55" width="560" height="335"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-bB-3lQ" userLabel="History Labels">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="20"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="ef6-es-Gux"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kII-s5-XRz" userLabel="History Contents">
-                                                <rect key="frame" x="0.0" y="25" width="560" height="310"/>
-                                                <mutableString key="text">Troyes has been in existence since the Roman era, as Augustobona Tricassium, which stood at the hub of numerous highways, primarily the Via Agrippa which led north to Reims and south to Langres and eventually to Milan;[1] other Roman routes from Troyes led to Poitiers, Autun and Orléans.[2] It was the civitas of the Tricasses,[3] who had been separated by Augustus from the Senones. Of the Gallo-Roman city of the early Empire, some scattered remains have been found, but no public monuments, other than traces of an aqueduct. By the Late Empire the settlement was reduced in extent, and referred to as Tricassium or Tricassae, the origin of French Troyes.
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Sf4-3X-FHJ" firstAttribute="width" secondItem="0Qp-51-Q2b" secondAttribute="width" id="Iug-DT-V3D"/>
+                                </constraints>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="15" y="160" width="570" height="196"/>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Qp-51-Q2b" firstAttribute="top" secondItem="PGU-Ai-9oA" secondAttribute="bottom" constant="10" id="0Ru-6X-ir1"/>
+                            <constraint firstItem="0Qp-51-Q2b" firstAttribute="leading" secondItem="XZU-G3-qlV" secondAttribute="leadingMargin" constant="15" id="2mD-2w-FcP"/>
+                            <constraint firstItem="0Qp-51-Q2b" firstAttribute="leading" secondItem="XZU-G3-qlV" secondAttribute="leading" constant="15" id="A4T-xW-arv"/>
+                            <constraint firstItem="B06-K3-7e3" firstAttribute="leading" secondItem="XZU-G3-qlV" secondAttribute="leading" constant="15" id="BBh-FV-asx"/>
+                            <constraint firstItem="F4j-mK-5HS" firstAttribute="top" secondItem="0Qp-51-Q2b" secondAttribute="bottom" constant="10" id="HcD-yF-HK2"/>
+                            <constraint firstItem="o15-iC-CTW" firstAttribute="centerX" secondItem="PGU-Ai-9oA" secondAttribute="centerX" id="Jx1-A7-XT5"/>
+                            <constraint firstAttribute="trailing" secondItem="0Qp-51-Q2b" secondAttribute="trailing" constant="15" id="Kvm-QW-CIk"/>
+                            <constraint firstItem="PGU-Ai-9oA" firstAttribute="top" secondItem="XZU-G3-qlV" secondAttribute="top" id="RNR-FL-9hS"/>
+                            <constraint firstItem="B06-K3-7e3" firstAttribute="top" secondItem="XZU-G3-qlV" secondAttribute="top" constant="15" id="TqG-25-RXE"/>
+                            <constraint firstItem="o15-iC-CTW" firstAttribute="centerY" secondItem="PGU-Ai-9oA" secondAttribute="centerY" id="ptt-8a-Qav"/>
+                            <constraint firstItem="PGU-Ai-9oA" firstAttribute="leading" secondItem="XZU-G3-qlV" secondAttribute="leading" id="si3-9h-UNl"/>
+                            <constraint firstAttribute="trailing" secondItem="PGU-Ai-9oA" secondAttribute="trailing" id="vgB-En-O8V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Qp-51-Q2b" secondAttribute="trailing" constant="15" id="xBu-3C-r9n"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2mD-2w-FcP"/>
+                                <exclude reference="xBu-3C-r9n"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Details" image="Details 1" id="SAa-nB-Wow"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9yJ-Xx-ckd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="2725"/>
+        </scene>
+        <!--Description Item-->
+        <scene sceneID="OwX-ab-GpO">
+            <objects>
+                <viewController id="HK2-ZP-3a9" userLabel="Description Item" customClass="DescriptionItemVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hrL-Pf-rQ4"/>
+                        <viewControllerLayoutGuide type="bottom" id="FG9-b7-tgn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ctl-SJ-ruV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troyes4" translatesAutoresizingMaskIntoConstraints="NO" id="Paj-DO-532">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" placeholder="YES" id="5cf-7L-vyQ"/>
+                                    <constraint firstAttribute="height" constant="324" id="bZT-m3-3iR"/>
+                                    <constraint firstAttribute="height" constant="135" id="htl-zD-Xt5"/>
+                                    <constraint firstAttribute="height" constant="150" id="smE-4g-4os"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5cf-7L-vyQ"/>
+                                        <exclude reference="bZT-m3-3iR"/>
+                                        <exclude reference="htl-zD-Xt5"/>
+                                        <exclude reference="smE-4g-4os"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="htl-zD-Xt5"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="smE-4g-4os"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="bZT-m3-3iR"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TROYES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCM-se-nQN">
+                                <rect key="frame" x="233" y="242" width="134" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EBr-gy-aot" userLabel="Stack History">
+                                <rect key="frame" x="15" y="516" width="570" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nW-84-23u">
+                                        <rect key="frame" x="0.0" y="0.0" width="570" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="MqS-QF-6yT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="88" height="50"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="770" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <textView clipsSubviews="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DN6-l9-QdW" userLabel="History text">
+                                        <rect key="frame" x="0.0" y="25" width="570" height="0.0"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Troyes has been in existence since the Roman era, as Augustobona Tricassium, which stood at the hub of numerous highways, primarily the Via Agrippa which led north to Reims and south to Langres and eventually to Milan;[1] other Roman routes from Troyes led to Poitiers, Autun and Orléans.[2] It was the civitas of the Tricasses,[3] who had been separated by Augustus from the Senones. Of the Gallo-Roman city of the early Empire, some scattered remains have been found, but no public monuments, other than traces of an aqueduct. By the Late Empire the settlement was reduced in extent, and referred to as Tricassium or Tricassae, the origin of French Troyes.
 
 The city was the seat of a bishop from the fourth century – the legend of its bishop Lupus (Loup), who saved the city from Attila by offering himself as hostage is hagiographic rather than historical[4] – though it was several centuries before it gained importance as a medieval centre of commerce.
 
@@ -192,54 +528,87 @@ Cathédrale Saint-Pierre-et-Saint-Paul de Troyes (1549).
 
 Town Hall of Troyes.
 The great fire of 1524 destroyed much of the medieval city, in spite of the city's numerous canals.</mutableString>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="widthClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="93" y="0.0" width="50" height="50"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="26" width="770" height="381"/>
+                                        </variation>
+                                    </textView>
                                 </subviews>
+                                <variation key="widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="143" height="50"/>
+                                </variation>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3y-tx-4uS">
-                                <rect key="frame" x="25" y="5" width="34" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ons-Vr-8lB" userLabel="Back">
+                                <rect key="frame" x="15" y="15" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="bA7-XF-BGO">
+                                        <variation key="heightClass=regular" constant="64"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="32" id="vmz-cv-2Jc">
+                                        <variation key="heightClass=regular" constant="64"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" image="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="FfP-7T-FO1"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ENw-gZ-6AN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leading" constant="20" id="1j1-J8-zMo"/>
-                            <constraint firstAttribute="trailing" secondItem="noX-NO-NaS" secondAttribute="trailing" id="4Xj-2g-4cM"/>
-                            <constraint firstItem="r3y-tx-4uS" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leadingMargin" constant="5" id="6qd-hk-LNU"/>
-                            <constraint firstItem="Mu6-dJ-Bpv" firstAttribute="centerX" secondItem="noX-NO-NaS" secondAttribute="centerX" id="Cc9-5W-OEL"/>
-                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="top" secondItem="noX-NO-NaS" secondAttribute="bottom" constant="20" id="DzJ-e0-nuh"/>
-                            <constraint firstItem="nqn-ih-CJu" firstAttribute="top" secondItem="5Dp-Mr-mJK" secondAttribute="bottom" constant="40" id="GoS-su-UtW"/>
-                            <constraint firstAttribute="trailing" secondItem="5Dp-Mr-mJK" secondAttribute="trailing" constant="20" id="MCz-XS-bhi"/>
-                            <constraint firstItem="r3y-tx-4uS" firstAttribute="top" secondItem="p8e-et-0kb" secondAttribute="topMargin" constant="5" id="XIB-mg-pvf"/>
-                            <constraint firstItem="noX-NO-NaS" firstAttribute="top" secondItem="p8e-et-0kb" secondAttribute="top" id="bDy-Mb-oIC"/>
-                            <constraint firstItem="5Dp-Mr-mJK" firstAttribute="top" secondItem="noX-NO-NaS" secondAttribute="bottom" constant="40" id="t6E-gg-DAR"/>
-                            <constraint firstItem="Mu6-dJ-Bpv" firstAttribute="centerY" secondItem="noX-NO-NaS" secondAttribute="centerY" id="zMy-wd-bS9"/>
-                            <constraint firstItem="noX-NO-NaS" firstAttribute="leading" secondItem="p8e-et-0kb" secondAttribute="leading" id="znl-YE-j23"/>
+                            <constraint firstItem="xCM-se-nQN" firstAttribute="centerX" secondItem="Paj-DO-532" secondAttribute="centerX" id="AEx-b8-QQ5"/>
+                            <constraint firstItem="ons-Vr-8lB" firstAttribute="leading" secondItem="ctl-SJ-ruV" secondAttribute="leading" constant="15" id="AU5-HD-nZX"/>
+                            <constraint firstItem="Paj-DO-532" firstAttribute="top" secondItem="ctl-SJ-ruV" secondAttribute="top" id="GJs-Cs-WgL"/>
+                            <constraint firstItem="EBr-gy-aot" firstAttribute="leading" secondItem="ctl-SJ-ruV" secondAttribute="leading" constant="15" id="PL1-c8-wqG"/>
+                            <constraint firstItem="ons-Vr-8lB" firstAttribute="top" secondItem="ctl-SJ-ruV" secondAttribute="top" constant="15" id="Q7S-3c-gD3"/>
+                            <constraint firstItem="xCM-se-nQN" firstAttribute="centerY" secondItem="Paj-DO-532" secondAttribute="centerY" id="RbW-xI-4Kc"/>
+                            <constraint firstAttribute="trailing" secondItem="Paj-DO-532" secondAttribute="trailing" id="RiJ-KM-cPD"/>
+                            <constraint firstAttribute="trailing" secondItem="EBr-gy-aot" secondAttribute="trailing" constant="15" id="ghJ-UI-qV9"/>
+                            <constraint firstItem="FG9-b7-tgn" firstAttribute="top" secondItem="EBr-gy-aot" secondAttribute="bottom" constant="10" id="klI-kN-IHa"/>
+                            <constraint firstItem="EBr-gy-aot" firstAttribute="top" secondItem="Paj-DO-532" secondAttribute="bottom" constant="10" id="naL-Z2-FdY"/>
+                            <constraint firstItem="Paj-DO-532" firstAttribute="leading" secondItem="ctl-SJ-ruV" secondAttribute="leading" id="zNJ-fX-82N"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="t6E-gg-DAR"/>
-                            </mask>
-                        </variation>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Description" image="Details 2" id="Lv1-zH-NSD"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YcW-ez-dHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2H1-NP-C9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="200" y="1241"/>
+            <point key="canvasLocation" x="-31" y="1954"/>
+        </scene>
+        <!--Find Out TabVC-->
+        <scene sceneID="ihn-w1-enb">
+            <objects>
+                <tabBarController id="KtT-rH-T06" customClass="FindOutTabVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" itemSpacing="39" itemWidth="25" id="iNi-40-6xw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="1" green="0.58837826280000005" blue="0.15530227999999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HK2-ZP-3a9" kind="relationship" relationship="viewControllers" id="xDz-4Y-yyL"/>
+                        <segue destination="LVN-Ih-Hff" kind="relationship" relationship="viewControllers" id="ozA-0T-7c7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeN-r7-c3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-983" y="2269"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Back" width="32" height="32"/>
+        <image name="Details 1" width="16" height="16"/>
+        <image name="Details 2" width="16" height="16"/>
         <image name="compass" width="35" height="35"/>
         <image name="troyes3" width="2672" height="4009"/>
         <image name="troyes4" width="4460" height="2973"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ENw-gZ-6AN"/>
+    </inferredMetricsTieBreakers>
 </document>
