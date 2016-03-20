@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ugly_Stuff" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="101" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jPw-5T-rUe">
+                                <rect key="frame" x="20" y="105" width="560" height="475"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="VsQ-od-CFc">
+                                    <rect key="frame" x="0.0" y="0.0" width="560" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="uglyCell" rowHeight="101" id="42p-dS-ZRT" customClass="UglyCell" customModule="Ugly_Stuff" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="560" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="42p-dS-ZRT" id="P56-pq-iNd">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="100.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gw7-3n-J4Y">
+                                                    <rect key="frame" x="8" y="13" width="75" height="75"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="75" id="bSC-wr-BIH"/>
+                                                        <constraint firstAttribute="width" constant="75" id="isK-yk-bC4"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08d-iS-OeJ">
+                                                    <rect key="frame" x="91" y="13" width="461" height="75"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="08d-iS-OeJ" firstAttribute="leading" secondItem="Gw7-3n-J4Y" secondAttribute="trailing" constant="8" id="IgT-RD-S6s"/>
+                                                <constraint firstItem="Gw7-3n-J4Y" firstAttribute="top" secondItem="P56-pq-iNd" secondAttribute="topMargin" constant="5" id="hOk-je-hr8"/>
+                                                <constraint firstItem="Gw7-3n-J4Y" firstAttribute="leading" secondItem="P56-pq-iNd" secondAttribute="leadingMargin" id="iKj-SK-nOd"/>
+                                                <constraint firstAttribute="trailing" secondItem="08d-iS-OeJ" secondAttribute="trailing" constant="8" id="mwI-Hy-9s9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mainImage" destination="Gw7-3n-J4Y" id="3jj-Ev-4Vp"/>
+                                            <outlet property="mainLib" destination="08d-iS-OeJ" id="o38-Fm-2qL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vjs-Nl-lEu" userLabel="Banner View">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ugly Things" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzn-YT-oxq">
+                                        <rect key="frame" x="255" y="32.5" width="90" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.58837826280000005" blue="0.15530227999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="yzn-YT-oxq" firstAttribute="centerY" secondItem="Vjs-Nl-lEu" secondAttribute="centerY" id="Ein-1G-tFC"/>
+                                    <constraint firstAttribute="height" constant="85" id="QbE-OH-9UE"/>
+                                    <constraint firstItem="yzn-YT-oxq" firstAttribute="centerX" secondItem="Vjs-Nl-lEu" secondAttribute="centerX" id="yZk-1y-DD3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jPw-5T-rUe" firstAttribute="top" secondItem="Vjs-Nl-lEu" secondAttribute="bottom" constant="20" id="3od-jQ-ttF"/>
+                            <constraint firstAttribute="trailing" secondItem="Vjs-Nl-lEu" secondAttribute="trailing" id="JNg-Ww-kRy"/>
+                            <constraint firstItem="Vjs-Nl-lEu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kz8-LQ-P3z"/>
+                            <constraint firstItem="Vjs-Nl-lEu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dby-Yy-LuZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jPw-5T-rUe" secondAttribute="bottom" constant="20" id="jie-VQ-OMh"/>
+                            <constraint firstAttribute="trailing" secondItem="jPw-5T-rUe" secondAttribute="trailing" constant="20" id="lEF-KG-Zhs"/>
+                            <constraint firstItem="jPw-5T-rUe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="yda-kY-q6S"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewBanner" destination="jPw-5T-rUe" id="5OE-FE-jp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="549"/>
+        </scene>
+    </scenes>
+</document>
