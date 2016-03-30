@@ -15,6 +15,9 @@
 		8FA182491CA2F42B00D7AF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA182471CA2F42B00D7AF8C /* LaunchScreen.storyboard */; };
 		8FA182521CA2F6D500D7AF8C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA182511CA2F6D500D7AF8C /* Post.swift */; };
 		8FA182551CA33A7D00D7AF8C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA182541CA33A7D00D7AF8C /* PostCell.swift */; };
+		8FA182581CA4029800D7AF8C /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA182571CA4029800D7AF8C /* AddPostVC.swift */; };
+		8FA1825B1CA4431300D7AF8C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1825A1CA4431300D7AF8C /* DataService.swift */; };
+		8FA1825E1CAC017400D7AF8C /* ObserverKeyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1825D1CAC017400D7AF8C /* ObserverKeyEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		8FA1824A1CA2F42B00D7AF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA182511CA2F6D500D7AF8C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8FA182541CA33A7D00D7AF8C /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8FA182571CA4029800D7AF8C /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		8FA1825A1CA4431300D7AF8C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8FA1825D1CAC017400D7AF8C /* ObserverKeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverKeyEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,12 @@
 		8FA1823A1CA2F42B00D7AF8C /* myHood */ = {
 			isa = PBXGroup;
 			children = (
+				8FA1825C1CAC015300D7AF8C /* Ressources */,
+				8FA182591CA442EA00D7AF8C /* Services */,
+				8FA182561CA4026500D7AF8C /* Controller */,
 				8FA182531CA33A4E00D7AF8C /* View */,
 				8FA182501CA2F6C100D7AF8C /* Model */,
 				8FA1823B1CA2F42B00D7AF8C /* AppDelegate.swift */,
-				8FA1823D1CA2F42B00D7AF8C /* ViewController.swift */,
 				8FA1823F1CA2F42B00D7AF8C /* Main.storyboard */,
 				8FA182451CA2F42B00D7AF8C /* Assets.xcassets */,
 				8FA182471CA2F42B00D7AF8C /* LaunchScreen.storyboard */,
@@ -87,6 +95,31 @@
 				8FA182541CA33A7D00D7AF8C /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		8FA182561CA4026500D7AF8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FA1823D1CA2F42B00D7AF8C /* ViewController.swift */,
+				8FA182571CA4029800D7AF8C /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FA182591CA442EA00D7AF8C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FA1825A1CA4431300D7AF8C /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8FA1825C1CAC015300D7AF8C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				8FA1825D1CAC017400D7AF8C /* ObserverKeyEvent.swift */,
+			);
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA1823E1CA2F42B00D7AF8C /* ViewController.swift in Sources */,
+				8FA1825B1CA4431300D7AF8C /* DataService.swift in Sources */,
 				8FA1823C1CA2F42B00D7AF8C /* AppDelegate.swift in Sources */,
 				8FA182441CA2F42B00D7AF8C /* myHood.xcdatamodeld in Sources */,
+				8FA1825E1CAC017400D7AF8C /* ObserverKeyEvent.swift in Sources */,
 				8FA182521CA2F6D500D7AF8C /* Post.swift in Sources */,
+				8FA182581CA4029800D7AF8C /* AddPostVC.swift in Sources */,
 				8FA182551CA33A7D00D7AF8C /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

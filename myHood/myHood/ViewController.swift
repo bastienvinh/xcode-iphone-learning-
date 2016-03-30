@@ -3,8 +3,6 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let NUMBER_OF_SECTION = 1
-    
-    var posts = [Post]()
 
     @IBOutlet weak var tableViewComments: UITableView!
     
@@ -15,17 +13,30 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableViewComments.dataSource = self
         
         
-        // False data for now
-        let post1 = Post(imagePath: "barrel-water-bridge", title: "Hello Kitty", description: "Description 1 of the death, of the desert. You realise that your product is working great")
-        let post2 = Post(imagePath: "barrel-water-bridge", title: "Manadou Oulala", description: "Description 2 is working greater than your possesion and depossession for greate good lalala")
-        let post3 = Post(imagePath: "barrel-water-bridge", title: "Goudja", description: "Tell other that you can add new features to your projects and start working very hard for me ...")
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.onPostsLoaded), name: NotificationEvKey.PostsLoaded.rawValue, object: nil)
+        DataService.loadPosts()
         
-        posts.append(post1)
-        posts.append(post2)
-        posts.append(post3)
+        /// This is just a example to load manually with false data
+//        let post1 = Post(imagePath: "barrel-water-bridge", title: "Hello Kitty", description: "Description 1 of the death, of the desert. You realise that your product is working great")
+//        let post2 = Post(imagePath: "barrel-water-bridge", title: "Manadou Oulala", description: "Description 2 is working greater than your possesion and depossession for greate good lalala")
+//        let post3 = Post(imagePath: "barrel-water-bridge", title: "Goudja", description: "Tell other that you can add new features to your projects and start working very hard for me ...")
+//        
+//        posts.append(post1)
+//        posts.append(post2)
+//        posts.append(post3)
+//        
+//        tableViewComments.reloadData()
+    
+    }
+    
+    func onPostsLoaded() {
         
+        // we changed everything
         tableViewComments.reloadData()
     }
+    
+    
+    // ************************* OVERRIDE FUNCTION for TableViewCell ************************************
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return NUMBER_OF_SECTION
@@ -33,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let post = posts[indexPath.row]
+        let post = DataService.loadedPosts[indexPath.row]
         var newCell: PostCell!
         
         // TODO : manage default datas / use data for user to understand that he can't load this data
@@ -57,7 +68,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return posts.count // we return the total number of our rows
+        return DataService.loadedPosts.count // we return the total number of our rows
     }
 
 }

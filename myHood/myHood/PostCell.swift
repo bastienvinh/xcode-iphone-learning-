@@ -9,6 +9,9 @@ class PostCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        postImg.layer.cornerRadius = postImg.frame.size.width / 2
+        postImg.clipsToBounds = true
     }
     
     func configureCell(image: UIImage, title: String, description: String) {
@@ -19,8 +22,8 @@ class PostCell: UITableViewCell {
     
     // BV : Bad practice because it is not generic or use protocols
     func configureCell(post: Post) {
-        let image = UIImage(named: post.imagePath)
-        configureCell(image!, title: post.title, description: post.description)
+        let image = DataService.imageForPath(post.imagePath)
+        configureCell(image!, title: post.title, description: post.postDescription)
     }
     
 }
