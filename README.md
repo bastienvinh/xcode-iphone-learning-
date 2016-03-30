@@ -111,6 +111,26 @@ This game will be a little simple, but we learn more concept of IOS Development.
 ### Videos
 [![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/Monster%20Pet.png)](https://youtu.be/Vwwo3pr-OHk)
 
+## MyHood
 
-# So why I am doing this ?
+### Description
+This is a application to describe your phootos with a title and a description. For now we can only add photos.
+
+### How to use
+Just load the application. To add photos, you click on the camera on top right of the screen.
+
+### TODO (Developer)
+We can still add fix for this application ( Don't forgot, these are tutorial projects ) :
+
+* When add new photos, we can reset the screen
+* After adding a post, we can return back to the list and add a default notification user
+
+### Videos
+[![ScreenShot](https://raw.githubusercontent.com/bastienvinh/xcode-iphone-learning-/master/screenshots/myhood.png)](https://youtu.be/U-TjeDL05N8)
+
+
+# So why so many project ?
 No reason, I am currently traning in Xcode and IOS Development. But to be forgeron, I need to forge a lot of things. Because no one will give your first experiences.
+
+# Contribution
+There a lot of people I need to thanks, but I wait to finish before doing that.
