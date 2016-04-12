@@ -1,23 +1,59 @@
-//
-//  ViewController.swift
-//  Favourite-Movie
-//
-//  Created by Cloud Strife on 05/04/16.
-//  Copyright © 2016 Bastien VINH. All rights reserved.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var listMovieTableView: UITableView!
+    
+    var movies = [Movie]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        listMovieTableView.delegate = self
+        listMovieTableView.dataSource = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        fetchData()
+        
+        listMovieTableView.reloadData()
+        listMovieTableView.tableHeaderView = nil
+        // automaticallyAdjustsScrollViewInsets
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return movies.count;
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        if let cell = tableView.dequeueReusableCellWithIdentifier("MovieCellListTableViewCell") as? MovieCellListTableViewCell {
+            let theMovieOfTheCell = movies[indexPath.row]
+            
+            cell.configureCell(theMovieOfTheCell)
+            return cell
+        }
+        
+        return MovieCellListTableViewCell()
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1 // Always 1 section
+    }
+    
+    private func fetchData() {
+        movies = MovieService.loadMovies()
+        
+        if movies.count == 0 {
+            let newFakeMovie = MovieService.createMovieEntity()
+            newFakeMovie.name = "Michell Vaillant"
+            MovieService.addMovie(newFakeMovie)
+            
+            movies = MovieService.loadMovies()
+        }
     }
 
 

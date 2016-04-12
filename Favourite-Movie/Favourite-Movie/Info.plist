@@ -34,5 +34,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OptimusPrinceps.ttf</string>
+		<string>OptimusPrincepsSemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
