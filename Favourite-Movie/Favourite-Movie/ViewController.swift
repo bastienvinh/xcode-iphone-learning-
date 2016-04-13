@@ -21,7 +21,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         listMovieTableView.reloadData()
         listMovieTableView.tableHeaderView = nil
-        // automaticallyAdjustsScrollViewInsets
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,14 +45,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     private func fetchData() {
         movies = MovieService.loadMovies()
-        
-        if movies.count == 0 {
-            let newFakeMovie = MovieService.createMovieEntity()
-            newFakeMovie.name = "Michell Vaillant"
-            MovieService.addMovie(newFakeMovie)
-            
-            movies = MovieService.loadMovies()
-        }
     }
 
 

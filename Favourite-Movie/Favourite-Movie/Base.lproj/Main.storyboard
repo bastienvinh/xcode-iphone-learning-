@@ -110,7 +110,7 @@
         <!--New Movie-->
         <scene sceneID="MXC-AG-HpI">
             <objects>
-                <viewController id="jgc-Ca-Rk4" customClass="AddMovieVC" customModule="Favourite_Movie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="jgc-Ca-Rk4" customClass="AddMovieVC" customModule="Favourite_Movie" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0RW-K6-fkF"/>
                         <viewControllerLayoutGuide type="bottom" id="JQB-m8-2vq"/>
@@ -139,8 +139,9 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M7p-Ee-Y69">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M7p-Ee-Y69" userLabel="Image Movie View">
                                                         <rect key="frame" x="0.0" y="25" width="368" height="250"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="250" id="egO-kc-Q8P"/>
                                                         </constraints>
@@ -152,6 +153,12 @@
                                                     <constraint firstAttribute="height" constant="275" id="sqn-86-CS2"/>
                                                 </constraints>
                                             </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spz-4Q-Y4A" userLabel="Add Image Button">
+                                                <rect key="frame" x="23" y="104" width="368" height="250"/>
+                                                <state key="normal" title="Add Image">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EQW-U0-tZ1" userLabel="Stack Form">
                                                 <rect key="frame" x="8" y="374" width="398" height="470"/>
                                                 <subviews>
@@ -164,13 +171,12 @@
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AGt-C4-bHK" userLabel="Pilot Description">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AGt-C4-bHK" userLabel="Pilot Description" customClass="UIShortTextView" customModule="Favourite_Movie" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="20" width="398" height="75"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="75" id="3CC-P3-Hmq"/>
                                                                 </constraints>
-                                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
@@ -203,8 +209,8 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="jRE-FG-fpl" userLabel="Stack Description">
                                                         <rect key="frame" x="0.0" y="175" width="398" height="295"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJH-Jh-eXP" userLabel="Description Label">
-                                                                <rect key="frame" x="0.0" y="0.0" width="42" height="20"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJH-Jh-eXP" userLabel="Description Label">
+                                                                <rect key="frame" x="0.0" y="0.0" width="87" height="20"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -242,14 +248,30 @@
                                             <constraint firstAttribute="height" constant="900" id="1xV-rh-UUR"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="EQW-U0-tZ1" secondAttribute="trailing" id="3Yg-OL-3Xe"/>
                                             <constraint firstItem="iq5-Js-6nA" firstAttribute="leading" secondItem="kOF-Lp-bOo" secondAttribute="leadingMargin" id="4FB-Dl-gd2"/>
+                                            <constraint firstItem="M7p-Ee-Y69" firstAttribute="centerY" secondItem="spz-4Q-Y4A" secondAttribute="centerY" id="6Mn-ee-9fA"/>
                                             <constraint firstItem="Om8-ZH-OlM" firstAttribute="leading" secondItem="kOF-Lp-bOo" secondAttribute="leadingMargin" constant="15" id="7GC-0M-bbF"/>
+                                            <constraint firstItem="spz-4Q-Y4A" firstAttribute="height" secondItem="jfq-Pa-wZ5" secondAttribute="height" id="BsN-ZN-nfo"/>
+                                            <constraint firstItem="M7p-Ee-Y69" firstAttribute="centerX" secondItem="spz-4Q-Y4A" secondAttribute="centerX" id="Ds6-TS-7YL"/>
                                             <constraint firstItem="EQW-U0-tZ1" firstAttribute="top" secondItem="Om8-ZH-OlM" secondAttribute="bottom" constant="20" id="KUT-YE-NnK"/>
                                             <constraint firstItem="EQW-U0-tZ1" firstAttribute="leading" secondItem="kOF-Lp-bOo" secondAttribute="leadingMargin" id="VN6-aT-ebT"/>
                                             <constraint firstItem="iq5-Js-6nA" firstAttribute="top" secondItem="kOF-Lp-bOo" secondAttribute="topMargin" constant="26" id="Vov-Uv-kyf"/>
                                             <constraint firstAttribute="bottom" secondItem="EQW-U0-tZ1" secondAttribute="bottom" constant="56" id="W02-NB-j1c"/>
+                                            <constraint firstItem="spz-4Q-Y4A" firstAttribute="centerY" secondItem="jfq-Pa-wZ5" secondAttribute="centerY" id="WO5-0S-iWm"/>
+                                            <constraint firstItem="M7p-Ee-Y69" firstAttribute="height" secondItem="spz-4Q-Y4A" secondAttribute="height" id="XCw-Fw-Pbe"/>
+                                            <constraint firstItem="spz-4Q-Y4A" firstAttribute="centerX" secondItem="jfq-Pa-wZ5" secondAttribute="centerX" id="asS-Ye-Wdg"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="Om8-ZH-OlM" secondAttribute="trailing" constant="15" id="nAf-Me-hjb"/>
+                                            <constraint firstItem="M7p-Ee-Y69" firstAttribute="width" secondItem="spz-4Q-Y4A" secondAttribute="width" id="vdt-mX-tg8"/>
                                             <constraint firstItem="Om8-ZH-OlM" firstAttribute="top" secondItem="iq5-Js-6nA" secondAttribute="bottom" constant="15" id="wvd-sQ-03H"/>
+                                            <constraint firstItem="spz-4Q-Y4A" firstAttribute="width" secondItem="jfq-Pa-wZ5" secondAttribute="width" id="z6l-py-esI"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="BsN-ZN-nfo"/>
+                                                <exclude reference="WO5-0S-iWm"/>
+                                                <exclude reference="asS-Ye-Wdg"/>
+                                                <exclude reference="z6l-py-esI"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -273,11 +295,24 @@
                     <navigationItem key="navigationItem" title="New Movie" id="vCl-5x-uOg" userLabel="Navigation Item">
                         <barButtonItem key="rightBarButtonItem" title="Complete" id="T0c-oy-Qk7" userLabel="Complete">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="completeButtonPressed:" destination="jgc-Ca-Rk4" id="cUe-Sb-a4L"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="964"/>
+                    <connections>
+                        <outlet property="addDescriptionButton" destination="spz-4Q-Y4A" id="JLO-33-vzm"/>
+                        <outlet property="completeButtonBar" destination="T0c-oy-Qk7" id="hku-mt-Wml"/>
+                        <outlet property="descriptionTextView" destination="StZ-7b-Rad" id="ELb-J6-gmZ"/>
+                        <outlet property="imageDescriptionImageView" destination="M7p-Ee-Y69" id="tbr-Zk-QQM"/>
+                        <outlet property="pilotTextView" destination="AGt-C4-bHK" id="r87-Mf-eyJ"/>
+                        <outlet property="scrollView" destination="v1A-gC-ZML" id="2gH-Zs-qiU"/>
+                        <outlet property="titleTextField" destination="iq5-Js-6nA" id="4mQ-Uh-gOy"/>
+                        <outlet property="urlTextField" destination="FfB-Kd-KU0" id="3Ej-j4-G4L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPj-1U-Qch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
