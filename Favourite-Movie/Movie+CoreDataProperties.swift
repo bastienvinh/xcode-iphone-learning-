@@ -2,7 +2,7 @@
 //  Movie+CoreDataProperties.swift
 //  Favourite-Movie
 //
-//  Created by Cloud Strife on 05/04/16.
+//  Created by Cloud Strife on 14/04/16.
 //  Copyright © 2016 Bastien VINH. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,10 +14,11 @@ import CoreData
 
 extension Movie {
 
-    @NSManaged var name: String?
     @NSManaged var date_released: NSDate?
-    @NSManaged var image: NSData?
     @NSManaged var descriptionMovie: String?
+    @NSManaged var image: NSData?
+    @NSManaged var name: String?
     @NSManaged var realisator: String?
+    @NSManaged var imdbUrl: String?
 
 }

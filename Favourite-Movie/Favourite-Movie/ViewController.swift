@@ -2,6 +2,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    private let SEGUE_DETAILD_ID = "SegueMovieDescriptionVC"
+    
     @IBOutlet weak var listMovieTableView: UITableView!
     
     var movies = [Movie]()
@@ -21,6 +23,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         listMovieTableView.reloadData()
         listMovieTableView.tableHeaderView = nil
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == SEGUE_DETAILD_ID {
+            if let movieVC = segue.destinationViewController as? MovieDescriptionVC,
+                let selectedMovieRow = listMovieTableView.indexPathForSelectedRow
+            {
+                 movieVC.setMovieSelected( movies[selectedMovieRow.row] )
+            }
+        }
+        
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

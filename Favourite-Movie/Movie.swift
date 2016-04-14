@@ -2,16 +2,22 @@
 //  Movie.swift
 //  Favourite-Movie
 //
-//  Created by Cloud Strife on 05/04/16.
+//  Created by Cloud Strife on 14/04/16.
 //  Copyright © 2016 Bastien VINH. All rights reserved.
 //
 
 import Foundation
 import CoreData
+import UIKit
 
 
 class Movie: NSManagedObject {
-
-// Insert code here to add functionality to your managed object subclass
+    
+    
+    // TODO : Improve this case or not
+    
+    func getImageDescriptionMovie() -> UIImage {
+        return UIImage(data: self.image!)!
+    }
 
 }
